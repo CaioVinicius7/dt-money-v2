@@ -39,8 +39,7 @@ function Transactions() {
                   </td>
                   <td> {transaction.category}</td>
                   <td>
-                    {" "}
-                    {dateFormatter.format(new Date(transaction.createdAt))}{" "}
+                    {dateFormatter.format(new Date(transaction.createdAt))}
                   </td>
                 </tr>
               );
